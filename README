@@ -1,0 +1,40 @@
+## Overview
+This project aims to predict customer churn in a telecom dataset using machine learning techniques. By identifying key factors contributing to churn, businesses can take proactive measures to improve customer retention.
+
+## Features
+- **Predictive Modeling**: Built a Random Forest Classifier to predict customer churn.
+- **Data Analysis**: Conducted extensive exploratory data analysis (EDA) to identify trends and patterns.
+- **Feature Engineering**: Preprocessed data, including handling missing values, encoding categorical variables, and scaling features.
+
+## Tools and Technologies
+- **Programming Language**: Python
+- **Libraries**:
+  - Data Manipulation: `pandas`, `numpy`
+  - Data Visualization: `seaborn`, `matplotlib`
+  - Machine Learning: `scikit-learn`
+
+## Workflow
+1. **Data Loading and Cleaning**:
+   - Imported and cleaned the dataset, converting necessary columns to appropriate data types.
+   - Removed missing values to ensure data quality.
+
+2. **Data Preprocessing**:
+   - Encoded categorical features using one-hot encoding.
+   - Scaled numerical features with `StandardScaler`.
+
+3. **Exploratory Data Analysis (EDA)**:
+   - Visualized churn distribution and key feature relationships with churn using boxplots and countplots.
+
+4. **Model Training**:
+   - Split data into training and testing sets.
+   - Trained a Random Forest Classifier and evaluated its performance using metrics such as precision, recall, and F1-score.
+   - Identified important features contributing to churn.
+
+## Results
+- Achieved reliable predictions with Random Forest Classifier.
+- Visualized top 10 most important features influencing customer churn.
+
+## Usage
+### Requirements
+- Python 3.7+
+- Required Libraries: `pandas`, `numpy`, `seaborn`, `matplotlib`, `scikit-learn`
